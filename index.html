@@ -1,63 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabela</title>
-</head>
+<html>
+    <head>
+        <meta charset="UTF=8">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <div class="formulario">
+        <label for="Nome">Nome: </label>
+        <input type="text" name="nome" id="nome">
+
+        <label for="Email">Email:</label>
+        <input type="email" name="email" id="email">
+
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha">
+
+        <label for="idade">idade: </label>
+        <input type="number" name="idade" id="idade">
+
+        <label for="dataEntrega">Data de Entrega</label>
+        <input type="date" name="data" id="data">
+        
+        <label for="cor">Cor</label>
+        <input type="color">
+
+        <label for="pesquisat">Pesquisar:</label>
+        <input type="search">
 
 
-<body>
-    <!--nao parece mas isso aqui é uma tabela cam-->
-    <h1>Horário de Aulas</h1>   <!--Saiu bugado alguma coisa q eu nao entendi-->
-    <table>
-            <tr>
-                <th>Horário</th>
-                <th>Segunda</th>
-                <th>Terça</th>
-                <th>Quarta</th>
-                <th>Quinta</th>
-                <th>Sexta</th>
-            </tr>
-            <tr>
-                <td>8h-9h</td>
-                <td>Matemática</td>
-                <td>História</td>
-                <td>Geografia</td>
-                <td>Português</td>
-                <td>Educação Física</td>
-            </tr>
-            <tr>
-                <td>9h-10h</td>
-                <td>Ciências</td>
-                <td>Física</td>
-                <td>Química</td>
-                <td>Estudo Orientado</td>
-                <td>Português</td>
-            </tr>
-            <tr>
-                <td>10h-11h</td>
-                <td>Inglês</td>
-                <td>Matemática</td>
-                <td colspan="2">Biologia</td>
-                <td>Artes</td>
-            </tr>
-            <tr>
-                <td>11h-12h</td>
-                <td>Química</td>
-                <td>Geografia</td>
-                <td>Física</td>
-                <td>Educação Física</td>
-            </tr>
-            <tr>
-                <td>13h-14h</td>
-                <td colspan="2"> Português</td>
-                <td>Matemática</td>
-                <td>História</td>
-                <td>Fisica</td>
+        <button type="submit">enviar</button>
+        </div>
 
-            </tr>
-        </tbody>
-    </table>
-</body>
+    </body>
 </html>
