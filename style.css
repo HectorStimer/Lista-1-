@@ -1,0 +1,27 @@
+img{
+
+    width: 500px;
+    height:80px ;
+
+
+}
+body{
+
+    background-color: pink;
+}
+
+#id-do-p{
+
+    color: orange;
+
+}
+
+h3{
+
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+}
+
+h4{
+    font-size: 100px;
+}
